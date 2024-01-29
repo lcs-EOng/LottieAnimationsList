@@ -16,6 +16,7 @@
 		2600B5752B67E73600E5B02E /* Stock.json in Resources */ = {isa = PBXBuildFile; fileRef = 2600B5722B67E73600E5B02E /* Stock.json */; };
 		2600B5762B67E73600E5B02E /* Animation - 1706535645636.json in Resources */ = {isa = PBXBuildFile; fileRef = 2600B5732B67E73600E5B02E /* Animation - 1706535645636.json */; };
 		2600B5772B67E73600E5B02E /* Logistic.json in Resources */ = {isa = PBXBuildFile; fileRef = 2600B5742B67E73600E5B02E /* Logistic.json */; };
+		2600B5792B67E79100E5B02E /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600B5782B67E79100E5B02E /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2600B5722B67E73600E5B02E /* Stock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Stock.json; sourceTree = "<group>"; };
 		2600B5732B67E73600E5B02E /* Animation - 1706535645636.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706535645636.json"; sourceTree = "<group>"; };
 		2600B5742B67E73600E5B02E /* Logistic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Logistic.json; sourceTree = "<group>"; };
+		2600B5782B67E79100E5B02E /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,7 @@
 		2600B5682B67E43D00E5B02E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2600B55E2B67E3E700E5B02E /* Assets.xcassets */,
+				2600B5782B67E79100E5B02E /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +91,7 @@
 		2600B5692B67E44B00E5B02E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2600B55E2B67E3E700E5B02E /* Assets.xcassets */,
 				2600B56A2B67E47D00E5B02E /* AnimationListView.swift */,
 				2600B56F2B67E67300E5B02E /* LottieView.swift */,
 			);
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2600B5792B67E79100E5B02E /* FavouriteAnimation.swift in Sources */,
 				2600B55B2B67E3E400E5B02E /* LottieAnimationsListApp.swift in Sources */,
 				2600B56B2B67E47D00E5B02E /* AnimationListView.swift in Sources */,
 				2600B5702B67E67300E5B02E /* LottieView.swift in Sources */,
