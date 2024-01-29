@@ -11,6 +11,7 @@
 		2600B55F2B67E3E700E5B02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2600B55E2B67E3E700E5B02E /* Assets.xcassets */; };
 		2600B5622B67E3E700E5B02E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2600B5612B67E3E700E5B02E /* Preview Assets.xcassets */; };
 		2600B56B2B67E47D00E5B02E /* AnimationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600B56A2B67E47D00E5B02E /* AnimationListView.swift */; };
+		2600B56E2B67E60900E5B02E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2600B56D2B67E60900E5B02E /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2600B56E2B67E60900E5B02E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,9 @@
 			dependencies = (
 			);
 			name = LottieAnimationsList;
+			packageProductDependencies = (
+				2600B56D2B67E60900E5B02E /* Lottie */,
+			);
 			productName = LottieAnimationsList;
 			productReference = 2600B5572B67E3E400E5B02E /* LottieAnimationsList.app */;
 			productType = "com.apple.product-type.application";
@@ -127,6 +132,9 @@
 				Base,
 			);
 			mainGroup = 2600B54E2B67E3E400E5B02E;
+			packageReferences = (
+				2600B56C2B67E60900E5B02E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 2600B5582B67E3E400E5B02E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -360,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2600B56C2B67E60900E5B02E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2600B56D2B67E60900E5B02E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2600B56C2B67E60900E5B02E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2600B54F2B67E3E400E5B02E /* Project object */;
 }
